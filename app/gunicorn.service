@@ -1,0 +1,6 @@
+[Unit]
+Description=demo fastapi application
+After=network.target
+
+[Install]
+WantedBy=multi-user.target
